@@ -62,3 +62,4 @@ typings/
 .expo/packager-info.json
 .expo/settings.json
 package-lock.json
+.file_activity_report.json

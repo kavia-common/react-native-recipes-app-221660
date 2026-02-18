@@ -33,6 +33,14 @@ export default function DrawerContainer(props) {
             navigation.closeDrawer();
           }}
         />
+        <MenuButton
+          title="SETTINGS"
+          source={require("../../../assets/icons/info.png")}
+          onPress={() => {
+            navigation.navigate("Main", { screen: "Settings" });
+            navigation.closeDrawer();
+          }}
+        />
       </View>
     </View>
   );
